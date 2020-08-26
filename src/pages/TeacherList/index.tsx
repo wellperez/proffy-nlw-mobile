@@ -1,11 +1,10 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
 
 import PageHeader from '../../components/PageHeader'
 import TeacherItem from '../../components/TeacherItem'
 
 import styles from './styles'
-import { ScrollView } from 'react-native-gesture-handler'
 
 export default function TeacherList() {
   return (
